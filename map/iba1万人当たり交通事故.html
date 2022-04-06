@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b1b1d6d87b464a46ab96c1b7287a3854 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b1b1d6d87b464a46ab96c1b7287a3854" ></div>
+        
+</body>
+<script>    
+    
+            var map_b1b1d6d87b464a46ab96c1b7287a3854 = L.map(
+                "map_b1b1d6d87b464a46ab96c1b7287a3854",
+                {
+                    center: [36.327222, 140.090556],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fae59c9459a54ca494b593fdb8f596c4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            var circle_d2d0523342eb445685c2ccf7389f6bf0 = L.circle(
+                [36.36583333, 140.4713889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2542.2139176847522, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_d2d0523342eb445685c2ccf7389f6bf0.bindTooltip(
+                `<div>
+                     水戸市 人口1万人当たり交通事故 25.9件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_83cc5fbb7af2402fac8a9c706737c069 = L.circle(
+                [36.59916667, 140.6516667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2351.014629578415, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_83cc5fbb7af2402fac8a9c706737c069.bindTooltip(
+                `<div>
+                     日立市 人口1万人当たり交通事故 22.1件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b69e90118c5145f6a447bc2863280dfd = L.circle(
+                [36.07194444, 140.1961111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2775.782833795995, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_b69e90118c5145f6a447bc2863280dfd.bindTooltip(
+                `<div>
+                     土浦市 人口1万人当たり交通事故 30.8件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f7223407458743178428052fbd6c56e1 = L.circle(
+                [36.17888889, 139.7558333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2212.716797925786, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_f7223407458743178428052fbd6c56e1.bindTooltip(
+                `<div>
+                     古河市 人口1万人当たり交通事故 19.6件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_43384ca75b3d452db0375ec1d18b1074 = L.circle(
+                [36.19083333, 140.2872222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2296.815165503794, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_43384ca75b3d452db0375ec1d18b1074.bindTooltip(
+                `<div>
+                     石岡市 人口1万人当たり交通事故 21.1件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0711684c6b6d41f9bd54308f0c865c4d = L.circle(
+                [36.30527778, 139.8775],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2231.1870167455304, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_0711684c6b6d41f9bd54308f0c865c4d.bindTooltip(
+                `<div>
+                     結城市 人口1万人当たり交通事故 19.9件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dd636ac67e8d40ea9a17cd7cd1e630d9 = L.circle(
+                [35.91166667, 140.1822222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2321.267989635663, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_dd636ac67e8d40ea9a17cd7cd1e630d9.bindTooltip(
+                `<div>
+                     龍ケ崎市 人口1万人当たり交通事故 21.6件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_00f04989d6e84511a0ef3eba5f76b2b8 = L.circle(
+                [36.18444444, 139.9675],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2261.186963300667, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_00f04989d6e84511a0ef3eba5f76b2b8.bindTooltip(
+                `<div>
+                     下妻市 人口1万人当たり交通事故 20.5件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3ef17b419b384f1389c0fac4d94d5041 = L.circle(
+                [36.02361111, 139.9938889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2034.3508601067967, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_3ef17b419b384f1389c0fac4d94d5041.bindTooltip(
+                `<div>
+                     常総市 人口1万人当たり交通事故 16.6件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7383e1e40b9441cc98e5de4609026874 = L.circle(
+                [36.53833333, 140.5311111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1482.5296651417984, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_7383e1e40b9441cc98e5de4609026874.bindTooltip(
+                `<div>
+                     常陸太田市 人口1万人当たり交通事故 8.8件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ae53fb1061044e15adaae762aef22fad = L.circle(
+                [36.71361111, 140.7097222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1710.6831084441637, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_ae53fb1061044e15adaae762aef22fad.bindTooltip(
+                `<div>
+                     高萩市 人口1万人当たり交通事故 11.7件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d286fd6b61e845f5a7d3932f317b32c3 = L.circle(
+                [36.80194444, 140.7511111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1647.5957700655874, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_d286fd6b61e845f5a7d3932f317b32c3.bindTooltip(
+                `<div>
+                     北茨城市 人口1万人当たり交通事故 10.9件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d4a95a50b7934417b9891f93accf1fc2 = L.circle(
+                [36.345, 140.3041667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2403.1894808629995, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_d4a95a50b7934417b9891f93accf1fc2.bindTooltip(
+                `<div>
+                     笠間市 人口1万人当たり交通事故 23.1件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_aa23fccf348d48e0a588a324c0e342b6 = L.circle(
+                [35.91138889, 140.0502778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2146.2071779296284, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_aa23fccf348d48e0a588a324c0e342b6.bindTooltip(
+                `<div>
+                     取手市 人口1万人当たり交通事故 18.4件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3b606e463cdd4c849a6117154abff7b2 = L.circle(
+                [35.97944444, 140.1497222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2448.944521247586, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_3b606e463cdd4c849a6117154abff7b2.bindTooltip(
+                `<div>
+                     牛久市 人口1万人当たり交通事故 24.0件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8e3c2f059da04ec4afedda83b9d146ad = L.circle(
+                [36.08361111, 140.0763889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2370.8391681736334, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_8e3c2f059da04ec4afedda83b9d146ad.bindTooltip(
+                `<div>
+                     つくば市 人口1万人当たり交通事故 22.5件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_17cbd09b07af42c68824b276a05142f8 = L.circle(
+                [36.39638889, 140.5344444],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2377.1635904479303, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_17cbd09b07af42c68824b276a05142f8.bindTooltip(
+                `<div>
+                     ひたちなか市 人口1万人当たり交通事故 22.6件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1a57eaf4152d4edea75c4d0635448e38 = L.circle(
+                [35.96583333, 140.645],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2070.7266460802157, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_1a57eaf4152d4edea75c4d0635448e38.bindTooltip(
+                `<div>
+                     鹿嶋市 人口1万人当たり交通事故 17.2件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_df33d192961d45478286767eb9af7a4a = L.circle(
+                [35.94722222, 140.5552778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2358.3976628361884, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_df33d192961d45478286767eb9af7a4a.bindTooltip(
+                `<div>
+                     潮来市 人口1万人当たり交通事故 22.2件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d403ca8e227e49c0a9f6fd5f0db557a0 = L.circle(
+                [35.95138889, 139.9755556],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1952.1011733698836, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_d403ca8e227e49c0a9f6fd5f0db557a0.bindTooltip(
+                `<div>
+                     守谷市 人口1万人当たり交通事故 15.2件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b5b0de72c9cd46b9a75b7fcf8a63c43d = L.circle(
+                [36.5425, 140.4108333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2073.3644047369244, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_b5b0de72c9cd46b9a75b7fcf8a63c43d.bindTooltip(
+                `<div>
+                     常陸大宮市 人口1万人当たり交通事故 17.2件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fd709a75d4494cafb89d4c655308f5de = L.circle(
+                [36.4575, 140.4866667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2511.6480678774547, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_fd709a75d4494cafb89d4c655308f5de.bindTooltip(
+                `<div>
+                     那珂市 人口1万人当たり交通事故 25.2件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ad67df6ce33340bba52e8c2b46fa95a8 = L.circle(
+                [36.30722222, 139.9830556],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2309.432881373992, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_ad67df6ce33340bba52e8c2b46fa95a8.bindTooltip(
+                `<div>
+                     筑西市 人口1万人当たり交通事故 21.3件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_adf5219e9087493ba37a5066c90b21b3 = L.circle(
+                [36.04833333, 139.8888889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1957.8850640803478, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_adf5219e9087493ba37a5066c90b21b3.bindTooltip(
+                `<div>
+                     坂東市 人口1万人当たり交通事故 15.3件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f39e03f37e3d49bb92724135f62f2b06 = L.circle(
+                [35.95666667, 140.3238889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2389.4602201543935, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_f39e03f37e3d49bb92724135f62f2b06.bindTooltip(
+                `<div>
+                     稲敷市 人口1万人当たり交通事故 22.8件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ca06ab2667c9462ca855df67717acefa = L.circle(
+                [36.15194444, 140.2372222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2367.421175886932, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_ca06ab2667c9462ca855df67717acefa.bindTooltip(
+                `<div>
+                     かすみがうら市 人口1万人当たり交通事故 22.4件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_aec496b2a48549abb173430190793843 = L.circle(
+                [36.32722222, 140.0905556],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1684.2604059321839, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_aec496b2a48549abb173430190793843.bindTooltip(
+                `<div>
+                     桜川市 人口1万人当たり交通事故 11.3件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b50a146f19f64adea1d56a842be7feab = L.circle(
+                [35.89, 140.6647222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2395.343515688764, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_b50a146f19f64adea1d56a842be7feab.bindTooltip(
+                `<div>
+                     神栖市 人口1万人当たり交通事故 23.0件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c7ebda43c0f446c2a3f5e920ea1a6495 = L.circle(
+                [35.99027778, 140.4891667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2151.049859157317, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_c7ebda43c0f446c2a3f5e920ea1a6495.bindTooltip(
+                `<div>
+                     行方市 人口1万人当たり交通事故 18.5件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_99cc81bb9de845838dd4f1117f067fcb = L.circle(
+                [36.15861111, 140.5163889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2202.734672516848, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_99cc81bb9de845838dd4f1117f067fcb.bindTooltip(
+                `<div>
+                     鉾田市 人口1万人当たり交通事故 19.4件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_61385f0eba094668989ec688113b98e1 = L.circle(
+                [35.96305556, 140.0372222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2038.1466184155, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_61385f0eba094668989ec688113b98e1.bindTooltip(
+                `<div>
+                     つくばみらい市 人口1万人当たり交通事故 16.6件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fd4aa52c45844440b5daf26242522df0 = L.circle(
+                [36.23944444, 140.3525],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2290.4257318054197, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_fd4aa52c45844440b5daf26242522df0.bindTooltip(
+                `<div>
+                     小美玉市 人口1万人当たり交通事故 21.0件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b4fdfc034af049719732f6218a475424 = L.circle(
+                [36.28694444, 140.4247222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2428.485569126732, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_b4fdfc034af049719732f6218a475424.bindTooltip(
+                `<div>
+                     茨城町 人口1万人当たり交通事故 23.6件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f496925bf2b64cf6b0e2fa40fd35f317 = L.circle(
+                [36.31333333, 140.575],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2219.0254519527266, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_f496925bf2b64cf6b0e2fa40fd35f317.bindTooltip(
+                `<div>
+                     大洗町 人口1万人当たり交通事故 19.7件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2da9f50b6af3417eb80fbf3e83ce9ecc = L.circle(
+                [36.47916667, 140.3763889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2206.939438818578, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_2da9f50b6af3417eb80fbf3e83ce9ecc.bindTooltip(
+                `<div>
+                     城里町 人口1万人当たり交通事故 19.5件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1f38873884ce4aaaa89944f5fd6209e2 = L.circle(
+                [36.47305556, 140.5661111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2123.9300079144095, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_1f38873884ce4aaaa89944f5fd6209e2.bindTooltip(
+                `<div>
+                     東海村 人口1万人当たり交通事故 18.0件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_906090c238e64e418ed2cf712474e9dc = L.circle(
+                [36.76805556, 140.3552778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2082.5300430264965, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_906090c238e64e418ed2cf712474e9dc.bindTooltip(
+                `<div>
+                     大子町 人口1万人当たり交通事故 17.3件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5746f25896864bc989d13fa7b18231da = L.circle(
+                [36.00444444, 140.3019444],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1816.6494935670978, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_5746f25896864bc989d13fa7b18231da.bindTooltip(
+                `<div>
+                     美浦村 人口1万人当たり交通事故 13.2件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3d85127677a74fe0bddb1ec2f7d04b66 = L.circle(
+                [36.03083333, 140.215],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2381.200079462352, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_3d85127677a74fe0bddb1ec2f7d04b66.bindTooltip(
+                `<div>
+                     阿見町 人口1万人当たり交通事故 22.7件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b3db82ed30d24406bb3165f1ff8bc91d = L.circle(
+                [35.88472222, 140.2444444],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2203.664435221886, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_b3db82ed30d24406bb3165f1ff8bc91d.bindTooltip(
+                `<div>
+                     河内町 人口1万人当たり交通事故 19.4件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1824390bd65a4f6a800bde8f448c94f3 = L.circle(
+                [36.18138889, 139.8913889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1897.29070599056, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_1824390bd65a4f6a800bde8f448c94f3.bindTooltip(
+                `<div>
+                     八千代町 人口1万人当たり交通事故 14.4件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d6481511c98a460992f05f84af550347 = L.circle(
+                [36.11444444, 139.7452778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2415.5049257217365, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_d6481511c98a460992f05f84af550347.bindTooltip(
+                `<div>
+                     五霞町 人口1万人当たり交通事故 23.3件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7d07486cb2904a8c818cba0a469ed3c7 = L.circle(
+                [36.10861111, 139.795],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2161.5089486871866, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_7d07486cb2904a8c818cba0a469ed3c7.bindTooltip(
+                `<div>
+                     境町 人口1万人当たり交通事故 18.7件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_90f083b7314c418da99ba98dfe00f76c = L.circle(
+                [35.85777778, 140.1394444],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#EDA098", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1626.0700012185932, "stroke": true, "weight": 3}
+            ).addTo(map_b1b1d6d87b464a46ab96c1b7287a3854);
+        
+    
+            circle_90f083b7314c418da99ba98dfe00f76c.bindTooltip(
+                `<div>
+                     利根町 人口1万人当たり交通事故 10.6件
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

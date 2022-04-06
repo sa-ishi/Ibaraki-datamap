@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_861671eb74a74605a008458a94b11b48 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_861671eb74a74605a008458a94b11b48" ></div>
+        
+</body>
+<script>    
+    
+            var map_861671eb74a74605a008458a94b11b48 = L.map(
+                "map_861671eb74a74605a008458a94b11b48",
+                {
+                    center: [36.3, 140.3],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4a1c0250c6b3422ab88ce6c43cca4323 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            var circle_f04e1caf2ecb45f3b4a616d3e38a8391 = L.circle(
+                [36.36583333, 140.4713889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2338.0487805361913, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_f04e1caf2ecb45f3b4a616d3e38a8391.bindTooltip(
+                `<div>
+                     水戸市:1人当たり自動車保有台数 0.9台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4185c7b5aaa64d148b0bb0698aa9badb = L.circle(
+                [36.59916667, 140.6516667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2250.9465082218508, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_4185c7b5aaa64d148b0bb0698aa9badb.bindTooltip(
+                `<div>
+                     日立市:1人当たり自動車保有台数 0.8台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_95002b54deb24c2098ab35997c9b2b40 = L.circle(
+                [36.07194444, 140.1961111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2350.1285142340625, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_95002b54deb24c2098ab35997c9b2b40.bindTooltip(
+                `<div>
+                     土浦市:1人当たり自動車保有台数 0.9台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a63739606afb47ff8ba519152120ada6 = L.circle(
+                [36.17888889, 139.7558333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2317.240283043307, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_a63739606afb47ff8ba519152120ada6.bindTooltip(
+                `<div>
+                     古河市:1人当たり自動車保有台数 0.9台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_893470e44e6a440b88250c915a33e18a = L.circle(
+                [36.19083333, 140.2872222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2469.7263256840024, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_893470e44e6a440b88250c915a33e18a.bindTooltip(
+                `<div>
+                     石岡市:1人当たり自動車保有台数 1.0台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_db11bf777f0d441db1604d1c445a4296 = L.circle(
+                [36.30527778, 139.8775],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2416.1035785990152, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_db11bf777f0d441db1604d1c445a4296.bindTooltip(
+                `<div>
+                     結城市:1人当たり自動車保有台数 0.9台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d5326b4b95694d8c9bfecd55586c97fb = L.circle(
+                [35.91166667, 140.1822222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2174.4848664516385, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_d5326b4b95694d8c9bfecd55586c97fb.bindTooltip(
+                `<div>
+                     龍ケ崎市:1人当たり自動車保有台数 0.8台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_869e4e41f96443a1b901eeb746017117 = L.circle(
+                [36.18444444, 139.9675],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2745.353117550592, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_869e4e41f96443a1b901eeb746017117.bindTooltip(
+                `<div>
+                     下妻市:1人当たり自動車保有台数 1.2台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8428f7a2ad0e4e25b28fde34c6733937 = L.circle(
+                [36.02361111, 139.9938889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2530.9950436695012, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_8428f7a2ad0e4e25b28fde34c6733937.bindTooltip(
+                `<div>
+                     常総市:1人当たり自動車保有台数 1.0台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_38302e7b67f441a796e76fec7cc42bdc = L.circle(
+                [36.53833333, 140.5311111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2541.4683952067558, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_38302e7b67f441a796e76fec7cc42bdc.bindTooltip(
+                `<div>
+                     常陸太田市:1人当たり自動車保有台数 1.0台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_db3e7dbe31c2449b86ff1f38817017b3 = L.circle(
+                [36.71361111, 140.7097222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2369.7167909041727, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_db3e7dbe31c2449b86ff1f38817017b3.bindTooltip(
+                `<div>
+                     高萩市:1人当たり自動車保有台数 0.9台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4c59b4bdb994466ca448082bfa13d57b = L.circle(
+                [36.80194444, 140.7511111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2391.0330540803284, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_4c59b4bdb994466ca448082bfa13d57b.bindTooltip(
+                `<div>
+                     北茨城市:1人当たり自動車保有台数 0.9台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c09c1219bce249bb80d80acbd12ff8e2 = L.circle(
+                [36.345, 140.3041667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2432.9217321466363, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_c09c1219bce249bb80d80acbd12ff8e2.bindTooltip(
+                `<div>
+                     笠間市:1人当たり自動車保有台数 0.9台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4bd0b3e2e34f40ee9db0631bdb37ccfa = L.circle(
+                [35.91138889, 140.0502778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1969.411067366918, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_4bd0b3e2e34f40ee9db0631bdb37ccfa.bindTooltip(
+                `<div>
+                     取手市:1人当たり自動車保有台数 0.6台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f06ed0b045e5461abf7986d44c060ba9 = L.circle(
+                [35.97944444, 140.1497222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2059.092196304628, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_f06ed0b045e5461abf7986d44c060ba9.bindTooltip(
+                `<div>
+                     牛久市:1人当たり自動車保有台数 0.7台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c58d486bfac643f984718b5de3845390 = L.circle(
+                [36.08361111, 140.0763889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2155.385454776865, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_c58d486bfac643f984718b5de3845390.bindTooltip(
+                `<div>
+                     つくば市:1人当たり自動車保有台数 0.7台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_292fb105130d4de68efa5d6af14a4bb9 = L.circle(
+                [36.39638889, 140.5344444],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2260.419526951542, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_292fb105130d4de68efa5d6af14a4bb9.bindTooltip(
+                `<div>
+                     ひたちなか市:1人当たり自動車保有台数 0.8台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8f3bcb1dc8b3486a97890a86770ad633 = L.circle(
+                [35.96583333, 140.645],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2428.775569571889, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_8f3bcb1dc8b3486a97890a86770ad633.bindTooltip(
+                `<div>
+                     鹿嶋市:1人当たり自動車保有台数 0.9台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bd7e24d2196d4319b913e72759ee6bfd = L.circle(
+                [35.94722222, 140.5552778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2547.8676548053063, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_bd7e24d2196d4319b913e72759ee6bfd.bindTooltip(
+                `<div>
+                     潮来市:1人当たり自動車保有台数 1.0台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1d72214e30284b94ac13efcc93ca1ba3 = L.circle(
+                [35.95138889, 139.9755556],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1948.658721704487, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_1d72214e30284b94ac13efcc93ca1ba3.bindTooltip(
+                `<div>
+                     守谷市:1人当たり自動車保有台数 0.6台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7e0b9a250c3344e585a82a97cb593600 = L.circle(
+                [36.5425, 140.4108333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2568.3601126012745, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_7e0b9a250c3344e585a82a97cb593600.bindTooltip(
+                `<div>
+                     常陸大宮市:1人当たり自動車保有台数 1.1台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_50337d2f88514852b6d7286d2a85dbfe = L.circle(
+                [36.4575, 140.4866667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2423.48155403001, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_50337d2f88514852b6d7286d2a85dbfe.bindTooltip(
+                `<div>
+                     那珂市:1人当たり自動車保有台数 0.9台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_98e78dd8b23b4d708449de7b05c2736c = L.circle(
+                [36.30722222, 139.9830556],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2515.265240322457, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_98e78dd8b23b4d708449de7b05c2736c.bindTooltip(
+                `<div>
+                     筑西市:1人当たり自動車保有台数 1.0台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6b0f981061444eea9f4797e56697bf7a = L.circle(
+                [36.04833333, 139.8888889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2671.99311071854, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_6b0f981061444eea9f4797e56697bf7a.bindTooltip(
+                `<div>
+                     坂東市:1人当たり自動車保有台数 1.1台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cb02f68b60354872beaf1eac9c7c8a5b = L.circle(
+                [35.95666667, 140.3238889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2692.5168828598835, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_cb02f68b60354872beaf1eac9c7c8a5b.bindTooltip(
+                `<div>
+                     稲敷市:1人当たり自動車保有台数 1.2台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e0b0f818a8914818894b8a0de99e9adf = L.circle(
+                [36.15194444, 140.2372222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2529.13032222991, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_e0b0f818a8914818894b8a0de99e9adf.bindTooltip(
+                `<div>
+                     かすみがうら市:1人当たり自動車保有台数 1.0台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_820e4da1bf854b2e99b92ece713f6f9c = L.circle(
+                [36.32722222, 140.0905556],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2574.4829484711972, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_820e4da1bf854b2e99b92ece713f6f9c.bindTooltip(
+                `<div>
+                     桜川市:1人当たり自動車保有台数 1.1台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_134024179c12462ca23d9133255a518e = L.circle(
+                [35.89, 140.6647222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2495.6208633392184, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_134024179c12462ca23d9133255a518e.bindTooltip(
+                `<div>
+                     神栖市:1人当たり自動車保有台数 1.0台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_34b1cfd57b874c2b9638909b9bbab92f = L.circle(
+                [35.99027778, 140.4891667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2766.619158327551, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_34b1cfd57b874c2b9638909b9bbab92f.bindTooltip(
+                `<div>
+                     行方市:1人当たり自動車保有台数 1.2台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c5db835b97d54a67b4925400ea37d5d7 = L.circle(
+                [36.15861111, 140.5163889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2753.5668356084957, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_c5db835b97d54a67b4925400ea37d5d7.bindTooltip(
+                `<div>
+                     鉾田市:1人当たり自動車保有台数 1.2台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1553ff00ae2f49ba9805a9674c2558d6 = L.circle(
+                [35.96305556, 140.0372222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2235.1935741121665, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_1553ff00ae2f49ba9805a9674c2558d6.bindTooltip(
+                `<div>
+                     つくばみらい市:1人当たり自動車保有台数 0.8台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8ba426d0fd014b3188984b0e472449c7 = L.circle(
+                [36.23944444, 140.3525],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2667.387365408867, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_8ba426d0fd014b3188984b0e472449c7.bindTooltip(
+                `<div>
+                     小美玉市:1人当たり自動車保有台数 1.1台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8a70934320e4413d89583a8f40a7a0ef = L.circle(
+                [36.28694444, 140.4247222],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2646.1549211298857, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_8a70934320e4413d89583a8f40a7a0ef.bindTooltip(
+                `<div>
+                     茨城町:1人当たり自動車保有台数 1.1台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fcdd03f4b41440ee9225ec8a44241274 = L.circle(
+                [36.31333333, 140.575],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2457.708232096313, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_fcdd03f4b41440ee9225ec8a44241274.bindTooltip(
+                `<div>
+                     大洗町:1人当たり自動車保有台数 1.0台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2df5bfe996324ae8b7f27d66d923e7e6 = L.circle(
+                [36.47916667, 140.3763889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2693.525444636036, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_2df5bfe996324ae8b7f27d66d923e7e6.bindTooltip(
+                `<div>
+                     城里町:1人当たり自動車保有台数 1.2台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_98df8e2e58954bf88e9421efca879064 = L.circle(
+                [36.47305556, 140.5661111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2273.4339789228898, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_98df8e2e58954bf88e9421efca879064.bindTooltip(
+                `<div>
+                     東海村:1人当たり自動車保有台数 0.8台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c9323babe57a42c3b679bfec4844387a = L.circle(
+                [36.76805556, 140.3552778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2616.5488844592305, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_c9323babe57a42c3b679bfec4844387a.bindTooltip(
+                `<div>
+                     大子町:1人当たり自動車保有台数 1.1台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_41939f7b2cac4e9a9ae854b5aebac4f2 = L.circle(
+                [36.00444444, 140.3019444],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2886.9268361623353, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_41939f7b2cac4e9a9ae854b5aebac4f2.bindTooltip(
+                `<div>
+                     美浦村:1人当たり自動車保有台数 1.3台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c8646aa4b25c4762842667bae1417d30 = L.circle(
+                [36.03083333, 140.215],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2262.9160457583134, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_c8646aa4b25c4762842667bae1417d30.bindTooltip(
+                `<div>
+                     阿見町:1人当たり自動車保有台数 0.8台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_285b1d52f2f44b9f9a6258759c885590 = L.circle(
+                [35.88472222, 140.2444444],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2724.250913097701, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_285b1d52f2f44b9f9a6258759c885590.bindTooltip(
+                `<div>
+                     河内町:1人当たり自動車保有台数 1.2台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7ceab1fbb80b4afcbfeb78c10815abb9 = L.circle(
+                [36.18138889, 139.8913889],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2712.1415049876273, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_7ceab1fbb80b4afcbfeb78c10815abb9.bindTooltip(
+                `<div>
+                     八千代町:1人当たり自動車保有台数 1.2台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6f1974f7ebf84db285e37a1829a21d50 = L.circle(
+                [36.11444444, 139.7452778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2638.3532270889264, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_6f1974f7ebf84db285e37a1829a21d50.bindTooltip(
+                `<div>
+                     五霞町:1人当たり自動車保有台数 1.1台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_80ccc5c2da884a12b4164af4f095af2b = L.circle(
+                [36.10861111, 139.795],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2568.0650814156393, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_80ccc5c2da884a12b4164af4f095af2b.bindTooltip(
+                `<div>
+                     境町:1人当たり自動車保有台数 1.1台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2f8db6984a29412084407bf3ff3accce = L.circle(
+                [35.85777778, 140.1394444],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77B8DA", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2245.8942208842727, "stroke": true, "weight": 3}
+            ).addTo(map_861671eb74a74605a008458a94b11b48);
+        
+    
+            circle_2f8db6984a29412084407bf3ff3accce.bindTooltip(
+                `<div>
+                     利根町:1人当たり自動車保有台数 0.8台
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
