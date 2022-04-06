@@ -8,5 +8,5 @@
 - 3. 人口map 65歳以上人口割合を表示　令和3年 Population with aged 65 and over(2021)
 
 
-### 市町村緯度経度情報は、以下のデータを参照させていただきました。
+### 謝辞　市町村緯度経度情報は、以下のデータを参照させていただきました。
 - https://github.com/code4fukui/localgovjp/blob/master/2019/localgovjp-utf8.csv
