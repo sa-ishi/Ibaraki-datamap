@@ -7,6 +7,8 @@
 - 2. 人口1人当たり自動車保有台数　令和3年  Number of cars owned(2021)
 - 3. 人口map 65歳以上人口割合を表示　令和3年 Population with aged 65 and over(2021)
 
-
-### 謝辞　市町村緯度経度情報は、以下のデータを参照させていただきました。
+## 謝辞
+### 市町村緯度経度情報は、以下のデータを参照させていただきました。
 - https://github.com/code4fukui/localgovjp/blob/master/2019/localgovjp-utf8.csv
+### map data は Open Street Map です。
+- https://www.openstreetmap.org/copyright
